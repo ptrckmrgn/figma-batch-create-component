@@ -3,9 +3,5 @@
     "id": "836508016102947880",
     "api": "1.0.0",
     "main": "build/code.js",
-    "ui": "build/ui.html",
-    "menu": [
-        { "name": "Wireframe Selected", "command": "wireframe" },
-        { "name": "Undo Wireframes", "command": "undo" }
-    ]
+    "ui": "build/ui.html"
 }
