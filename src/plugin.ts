@@ -133,7 +133,7 @@ const createComponentFromFrame = (frame: FrameNode): ComponentNode => {
 
     // Frame prototyping-related properties
     component.overflowDirection = frame.overflowDirection;
-    component.numberOfFixedChildren = frame.numberOfFixedChildren;
+    component.numberOfFixedChildren = 0; // components cannot have fixed children
 
     return component;
 };
